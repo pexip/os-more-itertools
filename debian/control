@@ -1,0 +1,24 @@
+Source: more-itertools
+Section: python
+Priority: optional
+Maintainer: Debian Python Team <team+python@tracker.debian.org>
+Build-Depends: debhelper-compat (= 13),
+               dh-python,
+               python3-all,
+               python3-setuptools,
+Standards-Version: 4.6.0
+Homepage: https://github.com/more-itertools/more-itertools/
+Vcs-Git: https://salsa.debian.org/python-team/packages/more-itertools.git
+Vcs-Browser: https://salsa.debian.org/python-team/packages/more-itertools
+Rules-Requires-Root: no
+
+Package: python3-more-itertools
+Architecture: all
+Depends: ${misc:Depends}, ${python3:Depends}
+Description: library with routines for operating on iterables, beyond itertools (Python 3)
+ Python's itertools library is a gem - you can compose elegant solutions
+ for a variety of problems with the functions it provides.
+ More-itertools collects additional building blocks, recipes,
+ and routines for working with Python iterables.
+ .
+ This package contains the module for Python 3.

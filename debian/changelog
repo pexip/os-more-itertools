@@ -1,0 +1,77 @@
+more-itertools (8.10.0-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable. Closes: #955758
+
+ -- Gordon Ball <gordon@chronitis.net>  Fri, 05 Nov 2021 10:29:45 +0000
+
+more-itertools (8.10.0-1) experimental; urgency=medium
+
+  * Team upload.
+
+  [ Ondřej Nový ]
+  * d/control: Update Maintainer field with new Debian Python Team
+    contact address.
+  * d/control: Update Vcs-* fields with new Debian Python Team Salsa
+    layout.
+
+  [ Debian Janitor ]
+  * Remove MIA uploader Ethan Ward <ethan.ward@mycroft.ai>. Closes: #971859
+  * Update standards version to 4.5.1, no changes needed.
+
+  [ Gordon Ball ]
+  * New upstream version 8.10.0
+  * Drop python3-six dependency
+  * Update autopkgtest for new test path
+  * Standards-Version 4.6.0
+  * Update homepage to github.com/more-itertools/more-itertools
+
+ -- Gordon Ball <gordon@chronitis.net>  Sun, 10 Oct 2021 21:16:52 +0000
+
+more-itertools (4.2.0-3) unstable; urgency=medium
+
+  * Team upload.
+  * Drop PyPy support.
+  * Set Rules-Requires-Root: no.
+  * Bump debhelper compat level to 13.
+  * Bump standards version to 4.5.0.
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 05 Jun 2020 15:49:05 +0200
+
+more-itertools (4.2.0-2) unstable; urgency=medium
+
+  [ Ondřej Nový ]
+  * Convert git repository from git-dpm to gbp layout
+  * Use debhelper-compat instead of debian/compat.
+
+  [ Debian Janitor ]
+  * Bump debhelper from old 11 to 12.
+  * Set upstream metadata fields: Bug-Database, Bug-Submit, Repository,
+    Repository-Browse.
+
+  [ Sandro Tosi ]
+  * Drop python2 support; Closes: #937083
+
+ -- Sandro Tosi <morph@debian.org>  Tue, 14 Apr 2020 17:01:38 -0400
+
+more-itertools (4.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream release
+  * d/control:
+    - Set Vcs-* to salsa.debian.org
+    - Fix short description
+    - Drop B-D on nose and use setuptools for tests
+    - Drop B-D on python{,3}-vcversioner - not needed
+    - Bump Standards-Version to 4.1.4 (no changes)
+  * d/copyright: Use https protocol in Format field
+  * Bump debhelper compat level to 11
+  * Add pypy version of package
+
+ -- Ondřej Nový <onovy@debian.org>  Fri, 15 Jun 2018 21:16:00 +0200
+
+more-itertools (3.2.0-2) unstable; urgency=medium
+
+  * Initial Debian packaging (closes: #869213)
+
+ -- Ethan Ward <ethan.ward@mycroft.ai>  Tue, 01 Aug 2017 18:31:57 -0500

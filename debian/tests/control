@@ -1,0 +1,11 @@
+Test-Command: set -e
+ ; cp -r setup.* README.rst docs/ tests/ "$AUTOPKGTEST_TMP"
+ ; for py in $(py3versions -r 2>/dev/null)
+ ; do cd "$AUTOPKGTEST_TMP"
+ ; echo "Testing with $py:"
+ ; $py -m unittest -v
+ ; done
+Depends: python3-all,
+         python3-more-itertools,
+         python3-setuptools,
+Restrictions: allow-stderr
