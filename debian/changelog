@@ -1,3 +1,9 @@
+more-itertools (8.10.0-2pexip1) pexip; urgency=medium
+
+  * Prepare Pexip packaging
+
+ -- Huw Jones <huw@pexip.com>  Wed, 14 Jun 2023 09:57:52 +0100
+
 more-itertools (8.10.0-2) unstable; urgency=medium
 
   * Team upload.
