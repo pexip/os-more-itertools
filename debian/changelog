@@ -1,3 +1,81 @@
+more-itertools (10.6.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [442c96b] New upstream version 10.6.0
+  * [8932019] d/u/metadata: Update and expand data
+  * [9669e1d] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 19 Jan 2025 07:08:22 +0200
+
+more-itertools (10.5.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [5e47e90] New upstream version 10.5.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 28 Sep 2024 18:59:57 +0200
+
+more-itertools (10.4.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [64922fa] New upstream version 10.4.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sun, 01 Sep 2024 15:26:28 +0200
+
+more-itertools (10.3.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [e274422] New upstream version 10.3.0
+  * [1895550] d/control: Bump Standards-Version to 4.7.0
+    No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 15 Jun 2024 11:22:40 +0200
+
+more-itertools (10.2.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [36dca50] New upstream version 10.2.0
+  * [0ac2d1b] d/copyright: Update year data
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Mon, 29 Jan 2024 18:18:16 +0100
+
+more-itertools (10.1.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [bd19139] New upstream version 10.1.0
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 12 Aug 2023 07:32:01 +0200
+
+more-itertools (10.0.1-1) unstable; urgency=medium
+
+  * Team upload.
+  * New upstream version 10.0.1
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 29 Jul 2023 17:38:41 +0200
+
+more-itertools (9.1.1-2) unstable; urgency=medium
+
+  * Team upload.
+  * Upload to unstable
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Wed, 21 Jun 2023 19:04:32 +0200
+
+more-itertools (9.1.1-1) experimental; urgency=medium
+
+  * Team upload.
+  * d/gbp.conf: Add some defaults for git-buildpackage
+  * d/watch: Move to git mode on GitHub
+  * New upstream version 9.1.1
+  * debian/*: Running wrap-and-sort -ast
+  * d/control: Adjust B-D due new upstream version
+  * d/rules: Drop --with option from default target
+  * autopkgtest: Adjust Depends field after switching to flit
+  * d/copyright: Update year data
+  * d/control: Bump Standards-Version to 4.6.2
+    No further changes needed.
+  * d/rules: Fix file permissions before build
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Sat, 22 Apr 2023 09:07:33 +0200
+
 more-itertools (8.10.0-2) unstable; urgency=medium
 
   * Team upload.

@@ -5,7 +5,8 @@ Test-Command: set -e
  ; echo "Testing with $py:"
  ; $py -m unittest -v
  ; done
-Depends: python3-all,
-         python3-more-itertools,
-         python3-setuptools,
+Depends:
+ flit,
+ python3-all,
+ python3-more-itertools,
 Restrictions: allow-stderr
