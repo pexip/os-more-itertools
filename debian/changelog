@@ -1,3 +1,12 @@
+more-itertools (10.7.0-1) unstable; urgency=medium
+
+  * Team upload.
+  * [a2d7943] New upstream version 10.7.0
+  * [a49a463] d/control: Bump Standards-Version to 4.7.2
+    No further changes needed.
+
+ -- Carsten Schoenert <c.schoenert@t-online.de>  Fri, 25 Apr 2025 12:13:53 +0200
+
 more-itertools (10.6.0-1) unstable; urgency=medium
 
   * Team upload.
