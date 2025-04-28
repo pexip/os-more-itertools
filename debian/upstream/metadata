@@ -1,4 +1,5 @@
-Bug-Database: https://github.com/erikrose/more-itertools/issues
-Bug-Submit: https://github.com/erikrose/more-itertools/issues/new
-Repository: https://github.com/erikrose/more-itertools.git
-Repository-Browse: https://github.com/erikrose/more-itertools
+Bug-Database: https://github.com/more-itertools/more-itertools/issues
+Bug-Submit: https://github.com/more-itertools/more-itertools/issues/new
+Documentation: https://more-itertools.readthedocs.io/en/stable
+Repository: https://github.com/more-itertools/more-itertools.git
+Repository-Browse: https://github.com/more-itertools/more-itertools

@@ -4,7 +4,19 @@
 export PYBUILD_NAME=more-itertools
 
 %:
-	dh $@ --with python3 --buildsystem=pybuild
+	dh $@ --buildsystem=pybuild
 
 override_dh_installchangelogs:
 	dh_installchangelogs docs/versions.rst
+
+override_dh_auto_build:
+	# Fixing file permissions for Python files.
+	for file in `find $(CURDIR)/more_itertools -type f`; do \
+		FOUND_PYTHON=$$(head -n1 $$file | grep python); \
+		if [ "$$FOUND_PYTHON" != "" ]; then \
+			chmod +x $$file; \
+		else \
+			chmod -x $$file; \
+		fi; \
+	done
+	dh_auto_build
