@@ -9,7 +9,7 @@ Build-Depends:
  flit,
  pybuild-plugin-pyproject,
  python3-all,
-Standards-Version: 4.7.0
+Standards-Version: 4.7.2
 Homepage: https://github.com/more-itertools/more-itertools/
 Vcs-Git: https://salsa.debian.org/python-team/packages/more-itertools.git
 Vcs-Browser: https://salsa.debian.org/python-team/packages/more-itertools
